@@ -57,7 +57,7 @@ function App() {
         <View style={[styles.outerBorder, styles.outerBorderError]}>
           <View style={[styles.containerInput, styles.errorContainer]}>
             <View style={{ width: '90%' }}>
-              <Text style={[styles.label, styles.labelError]}>Correo Electrónico</Text>
+              <Text style={[styles.label, styles.labelError]}>Correo Electrónico incorrecto</Text>
               <TextInput
                 style={[styles.input, styles.inputError]}
                 placeholderTextColor="#ccc"
